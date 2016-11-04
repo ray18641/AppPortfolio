@@ -4,13 +4,41 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 public class PortfolioActivity extends Activity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_porfolio);
+    }
+
+    public void popMovie(View v) {
+        Toast.makeText(this, "This button will launch popular movies", Toast.LENGTH_LONG).show();
+    }
+
+    public void stockHawk(View v) {
+        Toast.makeText(this, "This button will launch stock hawk", Toast.LENGTH_LONG).show();
+    }
+
+    public void buildBigger(View v) {
+        Toast.makeText(this, "This button will launch build it bigger", Toast.LENGTH_LONG).show();
+    }
+
+    public void material(View v) {
+        Toast.makeText(this, "This button will launch make your app material", Toast.LENGTH_LONG).show();
+    }
+
+    public void ubiquitous(View v) {
+        Toast.makeText(this, "This button will launch go ubiquitous", Toast.LENGTH_LONG).show();
+    }
+
+    public void capstone(View v) {
+        Toast.makeText(this, "This button will launch my capstone", Toast.LENGTH_LONG).show();
     }
 
     @Override

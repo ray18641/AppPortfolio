@@ -34,7 +34,8 @@
                 android:text="@string/popMovies"
                 android:background="#F08C35"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="20dp" />
+                android:layout_marginTop="20dp"
+                android:onClick="popMovie"/>
 
             <Button
                 android:id="@+id/stockHawk"
@@ -43,7 +44,8 @@
                 android:text="@string/stockHawk"
                 android:background="#F08C35"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="20dp" />
+                android:layout_marginTop="20dp"
+                android:onClick="stockHawk" />
 
             <Button
                 android:id="@+id/buildBigger"
@@ -52,7 +54,8 @@
                 android:text="@string/buildBigger"
                 android:background="#F08C35"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="20dp" />
+                android:layout_marginTop="20dp"
+                android:onClick="buildBigger" />
 
             <Button
                 android:id="@+id/makeMaterial"
@@ -61,7 +64,8 @@
                 android:text="@string/makeMaterial"
                 android:background="#F08C35"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="20dp" />
+                android:layout_marginTop="20dp"
+                android:onClick="material" />
 
             <Button
                 android:id="@+id/goUbiquitous"
@@ -70,7 +74,8 @@
                 android:text="@string/goUbiquitous"
                 android:background="#F08C35"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="20dp" />
+                android:layout_marginTop="20dp"
+                android:onClick="ubiquitous" />
 
             <Button
                 android:id="@+id/capstone"
@@ -79,7 +84,8 @@
                 android:text="@string/capstone"
                 android:background="#D84315"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="20dp" />
+                android:layout_marginTop="20dp"
+                android:onClick="capstone" />
 
 
         </LinearLayout>
