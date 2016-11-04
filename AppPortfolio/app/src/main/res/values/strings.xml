@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">App Portfolio</string>
+
+    <string name="title">My Nanodegree Apps</string>
+    <string name="popMovies">POPULAR MOVIES</string>
+    <string name="stockHawk">STOCK HAWK</string>
+    <string name="buildBigger">BUILD IT BIGGER</string>
+    <string name="makeMaterial">MAKE YOUR APP MATERIAL</string>
+    <string name="goUbiquitous">GO UBIQUITOUS</string>
+    <string name="capstone">CAPSTONE: MY OWN APP</string>
+    <!--<string name=""></string>-->
+    <!--<string name=""></string>-->
+    <!--<string name=""></string>-->
+    <!--<string name=""></string>-->
+    <!--<string name=""></string>-->
+    <!--<string name=""></string>-->
+    <!--<string name=""></string>-->
+
+
+    <string name="action_settings">Settings</string>
+</resources>
